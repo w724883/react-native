@@ -98,3 +98,7 @@ react-native init myapp完成之后，如果没报错则继续，有报错请che
 接下来你就可以在官方文档[http://reactnative.cn/](http://reactnative.cn/)自由的飞翔
 
 如果你熟悉react开发可以尝试redux
+
+## 12.发布
+
+最后打包发布，请自行谷歌百度
