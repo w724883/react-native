@@ -70,7 +70,7 @@ ok这时候如果看到android的界面，万事大吉
 
 react-native init myapp完成之后，如果没报错则继续，有报错请check自己的环境
 
-接下来启动项目，在命令行输入`react-native run-android`,可能会自动弹出一个监听8081端口的服务，如果没有弹出请新打开一个命令行窗口输入`react-native start`
+接下来启动项目，在命令行输入`react-native run-android`（android studio别忘了先启动），可能会自动弹出一个监听8081端口的服务，如果没有弹出请新打开一个命令行窗口输入`react-native start`
 
 稍等一会项目正在启动，这个过程也很容易出问题，如你环境配的有问题就会报错,比如你的环境变量路径配置错了，sdk包装少了（如果你觉得sdk包已经都装了还是报错，上网找找多装几个，反正我给的起来了）
 
