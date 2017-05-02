@@ -90,6 +90,9 @@ react-native init myapp完成之后，如果没报错则继续，有报错请che
 
 这个过程实体机报错，别哭，可能是实体机和电脑不在一个局域网的问题，请查看官方文档，在命令行执行`adb reverse tcp:8081 tcp:8081`，调出调试选项（听说摇一摇就可以），点击Reload JS
 
+如何用chrome调试：[http://reactnative.cn/docs/0.43/debugging.html#content](http://reactnative.cn/docs/0.43/debugging.html#content)
+
+
 
 ## 11.开发
 
