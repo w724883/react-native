@@ -1,0 +1,137 @@
+html,body,div,ul,li{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background: rgb(246,246,246);
+}
+
+.list{
+	padding: 0 15px 50px;
+	li{
+		margin: 0 0 27px 0;
+	}
+}
+.list-left{
+	.list-head{
+		float: left;
+		background-image: url(../imgs/dumiHead.png);
+	}
+	.list-message-inner{
+		background: #fff;
+		color: #4e515e;
+		border:1px solid #ccc;
+		&:before{
+			content: '';
+			position: absolute;
+			right: 100%;
+			top: 12px;
+			display: block;
+			width: 0;
+			height: 0;
+			border: 6px solid #ccc;
+			border-left: none;
+			border-top-color: transparent;
+			border-bottom-color: transparent;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			right: 100%;
+			top: 12px;
+			display: block;
+			width: 0;
+			height: 0;
+			border: 6px solid #fff;
+			border-left: none;
+			border-top-color: transparent;
+			border-bottom-color: transparent;
+			margin-right: -2px;
+		}
+	}
+}
+.list-right{
+	.list-head{
+		float: right;
+		background-image: url(../imgs/userHead.png);
+	}
+	.list-message{
+		text-align: right;
+	}
+	.list-message-inner{
+		background: #3ea1fc;
+		color: #fff;
+		border:1px solid #3ea1fc;
+		text-align: left;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 100%;
+			top: 12px;
+			display: block;
+			width: 0;
+			height: 0;
+			border: 6px solid #3ea1fc;
+			border-right: none;
+			border-top-color: transparent;
+			border-bottom-color: transparent;
+		}
+	}
+}
+.list-head{
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 100%;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.list-message{
+	margin: 0 54px;
+	
+}
+.list-message-inner{
+	line-height: 24px;
+    padding: 8px 13px;
+    font-size: 15px;
+    
+    
+    border-radius: 5px;
+    
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-all;
+    
+}
+
+.input{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	background: #ccc;
+	padding: 5px 15px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	input{
+		display: block;
+		border: none;
+		width: 100%;
+		background: #fff;
+		height: 36px;
+		line-height: 36px;
+		font-size: 16px;
+		outline: none;
+		padding: 0 10px;
+		box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+	}
+}
