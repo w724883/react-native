@@ -12,12 +12,14 @@
 
 启动 android 模拟器
 
-``
->react-native run-android
+```
+npm install
+
+react-native run-android
 ```
 
 
 
 ## 预览
 
-![预览](./src/android/components/dialog/dev/GIF.gif)
+![预览](http://gitlab.baidu.com/weiruizhe/dialog-native/raw/2401294cd48dca259aeabbbedd7ca837ceabe957/src/android/components/dialog/dev/GIF.gif)
